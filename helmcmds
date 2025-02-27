@@ -236,6 +236,12 @@ ___________________
 
 #helm install webapp ./webapp-nginx
 
+##################################
+   to see the values
+################################
+
+helm get values my-release1 -n isilon | less
+
 
 
 
